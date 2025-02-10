@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research | Sumedha Ray</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: #E0E0E0;
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #BB86FC;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        h2 {
-            color: #FF8C00;
-            margin-top: 20px;
-        }
-        p {
-            font-size: 18px;
-            text-align: justify;
-        }
-    </style>
-</head>
 <body>
+    <div id="header"></div> <!-- Placeholder for the header -->
+
     <div class="container">
         <h1>Research</h1>
 
@@ -64,5 +34,11 @@
             The findings provide insight into the socio-economic costs of communal violence and the long-term impact of forced migration.
         </p>
     </div>
+
+    <script>
+        // Load the header from header.html
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+    </script>
 </body>
-</html>
