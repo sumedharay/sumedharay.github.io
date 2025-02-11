@@ -189,6 +189,29 @@ footer {
     font-size: 1.1rem;
 }
 
+/* Research Page Styles */
+.section-heading {
+    font-size: 1.8rem;  /* Medium size for "Working Papers" */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.paper {
+    margin-bottom: 3rem;
+}
+
+.paper-title {
+    font-size: 1.3rem;  /* Smallest but still prominent */
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: var(--text-primary);
+}
+
+.paper p {
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+}
+
 /* Email Link Styles */
 a[href^="mailto"] {
     text-decoration: none;
