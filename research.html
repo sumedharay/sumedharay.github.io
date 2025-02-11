@@ -3,50 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research | Sumedha Ray</title>
+    <title>Research - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #222;
-            padding: 15px;
-        }
-        nav a {
-            color: #ffffff;
-            margin: 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
+        /* Additional specific styles for research page */
         .container {
             padding: 50px;
             max-width: 800px;
             margin: auto;
-            text-align: left;
+            background-color: var(--primary-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            text-align: center;
-        }
+
         h2 {
-            text-decoration: underline;
+            color: var(--text-primary);
+            border-bottom: 2px solid var(--accent-1);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
         }
+
         p {
             font-size: 18px;
             line-height: 1.6;
             text-align: justify;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .research-item {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: var(--secondary-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
         }
     </style>
 </head>
 <body>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="research.html">Research</a>
@@ -54,40 +48,43 @@
         <a href="cv.html">CV</a>
         <a href="about.html">About Me</a>
     </nav>
-
+    
     <div class="container">
         <h1>Research</h1>
+        
+        <div class="research-item">
+            <h2>Beyond the Ashes: Tracing Women's Empowerment in the Wake of Gujarat's Communal Violence</h2>
+            <p>
+                This study explores the long-term effects of the 2002 Gujarat riots on the empowerment of Muslim women. 
+                In the aftermath of the violence, many women were forced to assume greater financial and social responsibilities, 
+                leading to shifts in traditional gender roles. The study examines key indicators such as labor force participation, 
+                education levels, decision-making autonomy, and access to healthcare to assess how communal violence reshaped 
+                women's socio-economic trajectories.
+            </p>
+            <p>
+                Using a difference-in-differences (DiD) methodology, the study compares Muslim women's socio-economic 
+                outcomes before and after the riots, in Gujarat and in other states with similar demographic characteristics. 
+                It aims to understand whether these changes were temporary survival strategies or led to lasting empowerment. 
+                The findings contribute to discussions on resilience, gender dynamics, and the broader socio-political 
+                consequences of communal violence.
+            </p>
+        </div>
 
-        <h2>Beyond the Ashes: Tracing Women’s Empowerment in the Wake of Gujarat’s Communal Violence</h2>
-        <p>
-            This study explores the long-term effects of the 2002 Gujarat riots on the empowerment of Muslim women. 
-            In the aftermath of the violence, many women were forced to assume greater financial and social responsibilities, 
-            leading to shifts in traditional gender roles. The study examines key indicators such as labor force participation, 
-            education levels, decision-making autonomy, and access to healthcare to assess how communal violence reshaped 
-            women's socio-economic trajectories.
-        </p>
-        <p>
-            Using a difference-in-differences (DiD) methodology, the study compares Muslim women’s socio-economic 
-            outcomes before and after the riots, in Gujarat and in other states with similar demographic characteristics. 
-            It aims to understand whether these changes were temporary survival strategies or led to lasting empowerment. 
-            The findings contribute to discussions on resilience, gender dynamics, and the broader socio-political 
-            consequences of communal violence.
-        </p>
-
-        <h2>When Home Becomes History: Forced Migration and the Aftermath of the Gujarat Riots (2002)</h2>
-        <p>
-            Communal violence often triggers forced migration, leading to significant demographic shifts and long-term 
-            economic consequences. This study investigates how displacement following the Gujarat riots affected employment, 
-            education, and economic integration among affected communities, with a particular focus on Muslim families 
-            who were forced to flee their homes.
-        </p>
-        <p>
-            By leveraging census data and large-scale household surveys, the research examines disparities between displaced 
-            and non-displaced communities in terms of employment outcomes, educational attainment, and household income. 
-            Additionally, it analyzes whether government rehabilitation efforts were effective in supporting resettlement. 
-            The findings provide insight into the socio-economic costs of communal violence and the long-term impact of forced migration.
-        </p>
+        <div class="research-item">
+            <h2>When Home Becomes History: Forced Migration and the Aftermath of the Gujarat Riots (2002)</h2>
+            <p>
+                Communal violence often triggers forced migration, leading to significant demographic shifts and long-term 
+                economic consequences. This study investigates how displacement following the Gujarat riots affected employment, 
+                education, and economic integration among affected communities, with a particular focus on Muslim families 
+                who were forced to flee their homes.
+            </p>
+            <p>
+                By leveraging census data and large-scale household surveys, the research examines disparities between displaced 
+                and non-displaced communities in terms of employment outcomes, educational attainment, and household income. 
+                Additionally, it analyzes whether government rehabilitation efforts were effective in supporting resettlement. 
+                The findings provide insight into the socio-economic costs of communal violence and the long-term impact of forced migration.
+            </p>
+        </div>
     </div>
-
 </body>
 </html>
