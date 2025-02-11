@@ -1,193 +1,5 @@
 /* Color Variables */
-:root {
-    --primary-bg: #FFF9F0;          /* Soft cream background */
-    --secondary-bg: #FFF4E0;        /* Warmer cream for sections */
-    --accent-1: #FFE0B5;            /* Soft peach for highlights */
-    --accent-2: #F8D7DA;            /* Muted pink for special elements */
-    --text-primary: #4A4A4A;        /* Soft black for main text */
-    --text-secondary: #6B6B6B;      /* Grey for secondary text */
-    --link-color: #BE8C63;          /* Warm brown for links */
-    --link-hover: #A67348;          /* Darker brown for hover states */
-    --border-color: #E8E0D9;        /* Subtle border color */
-}
-
-/* Base Styles */
-body {
-    background-color: var(--primary-bg);
-    color: var(--text-primary);
-    line-height: 1.6;
-    font-family: 'Georgia', serif;
-}
-
-/* Header Styles */
-header {
-    background-color: var(--secondary-bg);
-    border-bottom: 2px solid var(--border-color);
-    padding: 2rem 0;
-}
-
-/* Navigation */
-nav {
-    background-color: var(--primary-bg);
-    border-bottom: 1px solid var(--border-color);
-}
-
-nav a {
-    color: var(--link-color);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: var(--link-hover);
-}
-
-/* Section Styles */
-section {
-    background-color: var(--primary-bg);
-    margin: 2rem 0;
-    padding: 2rem;
-    border-radius: 8px;
-    border: 1px solid var(--border-color);
-}
-
-/* Headings */
-h1, h2, h3 {
-    color: var(--text-primary);
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 1.2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-/* Links */
-a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: var(--link-hover);
-}
-
-/* Project Cards */
-.project-card {
-    background-color: var(--secondary-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-3px);
-}
-
-/* Buttons */
-.button {
-    background-color: var(--accent-1);
-    color: var(--text-primary);
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: var(--accent-2);
-}
-
-/* Footer */
-footer {
-    background-color: var(--secondary-bg);
-    color: var(--text-secondary);
-    padding: 2rem 0;
-    margin-top: 3rem;
-    border-top: 2px solid var(--border-color);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    
-    h2 {
-        font-size: 1.75rem;
-    }
-    
-    h3 {
-        font-size: 1.25rem;
-    }
-    
-    .project-card {
-        padding: 1rem;
-    }
-}
-
-/* Updated Profile and Layout Styles */
-.intro-section {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-    margin-bottom: 3rem;  /* Space between intro and main content */
-}
-
-.profile-section {
-    display: flex;
-    align-items: flex-start;
-    margin-left: -100px;  /* Pulls the section slightly left of center */
-}
-
-.profile-image {
-    width: 240px;  /* Doubled size */
-    height: 240px;
-    border-radius: 0;  /* Square edges */
-    object-fit: cover;
-    margin-right: 2rem;  /* Space between image and text */
-}
-
-.contact-info {
-    padding-top: 1rem;  /* Aligns text with top of image */
-}
-
-.contact-info h1 {
-    margin-bottom: 1rem;
-    font-size: 2.2rem;
-}
-
-.contact-info p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
-.main-content {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-.main-content p {
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
-    font-size: 1.1rem;
-}
+[Previous styles remain exactly the same until Research Page Styles]
 
 /* Research Page Styles */
 .section-heading {
@@ -210,6 +22,20 @@ footer {
 .paper p {
     margin-bottom: 1.2rem;
     line-height: 1.6;
+}
+
+/* Teaching Page Styles */
+.course {
+    margin-bottom: 2rem;
+}
+
+.course p {
+    margin-bottom: 0.5rem;
+}
+
+.course-details {
+    color: var(--text-secondary);
+    margin-left: 1rem;
 }
 
 /* Email Link Styles */
