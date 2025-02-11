@@ -140,41 +140,53 @@ footer {
     }
 }
 
-/* New Profile and Layout Styles */
-.header-content {
+/* Updated Profile and Layout Styles */
+.intro-section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    padding: 1rem 0;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-bottom: 3rem;  /* Space between intro and main content */
 }
 
 .profile-section {
-    flex: 0 0 auto;
-}
-
-.contact-section {
-    flex: 1;
-    text-align: right;
-    padding-left: 2rem;
+    display: flex;
+    align-items: flex-start;
+    margin-left: -100px;  /* Pulls the section slightly left of center */
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 240px;  /* Doubled size */
+    height: 240px;
+    border-radius: 0;  /* Square edges */
     object-fit: cover;
+    margin-right: 2rem;  /* Space between image and text */
+}
+
+.contact-info {
+    padding-top: 1rem;  /* Aligns text with top of image */
+}
+
+.contact-info h1 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .main-content {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .main-content p {
     margin-bottom: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.8;
+    font-size: 1.1rem;
 }
 
 /* Email Link Styles */
