@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    background-color: #181818;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background-color: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #BB86FC; /* Subtle purple accent */
+}
+
+/* Main Content Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+h1, h2 {
+    color: #BB86FC; /* Professional purple shade */
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    color: #CCCCCC;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #222;
+    color: #E0E0E0;
+    margin-top: 40px;
+}
