@@ -1,5 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Sumedha Ray</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #E0E0E0;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: #1E1E1E;
+            padding: 15px;
+            text-align: center;
+        }
+        .header a {
+            color: #BB86FC;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 15px;
+        }
+        .header a:hover {
+            color: #FF8C00;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #BB86FC;
+            text-align: center;
+        }
+        h2 {
+            color: #FF8C00;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+    </style>
+</head>
 <body>
-    <div id="header"></div> <!-- Placeholder for the header -->
+
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+        <a href="about.html">About Me</a>
+    </div>
 
     <div class="container">
         <h1>Research</h1>
@@ -35,10 +88,5 @@
         </p>
     </div>
 
-    <script>
-        // Load the header from header.html
-        fetch('header.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('header').innerHTML = data);
-    </script>
 </body>
+</html>
