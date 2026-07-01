@@ -239,7 +239,3 @@ a[href^="mailto"] {
     color: var(--link-color);
 }
 
-a[href^="mailto"]:hover {
-    text-decoration: underline;
-    color: var(--link-hover);
-}
