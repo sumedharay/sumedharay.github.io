@@ -233,10 +233,9 @@ footer {
     padding: 2rem;
 }
 
-
 /* Email Link Styles */
 a[href^="mailto"] {
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--link-color);
 }
 
