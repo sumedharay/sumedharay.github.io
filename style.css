@@ -233,12 +233,14 @@ footer {
     padding: 2rem;
 }
 
+
 /* Email Link Styles */
 a[href^="mailto"] {
     text-decoration: none;
-    color: inherit;
+    color: var(--link-color);
 }
 
 a[href^="mailto"]:hover {
     text-decoration: underline;
+    color: var(--link-hover);
 }
