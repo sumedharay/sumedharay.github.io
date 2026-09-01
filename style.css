@@ -150,7 +150,7 @@ footer {
 
 .profile-section {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-left: -100px;  /* Pulls the section slightly left of center */
 }
 
@@ -169,6 +169,7 @@ footer {
 .contact-info h1 {
     margin-bottom: 1rem;
     font-size: 2.2rem;
+    margin-top: 40px;
 }
 
 .contact-info p {
